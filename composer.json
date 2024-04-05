@@ -17,9 +17,10 @@
         "sort-packages": true
     },
     "require": {
-        "magento/product-community-edition": "2.4.6-p4",
         "magento/composer-dependency-version-audit-plugin": "~0.1",
-        "magento/composer-root-update-plugin": "~2.0"
+        "magento/composer-root-update-plugin": "~2.0",
+        "magento/product-community-edition": "2.4.6-p4",
+        "nest/meta-us": "~0.1"
     },
     "autoload": {
         "exclude-from-classmap": [
@@ -72,7 +73,7 @@
             "Magento\\Tools\\Sanity\\": "dev/build/publication/sanity/Magento/Tools/Sanity/"
         }
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "alpha",
     "prefer-stable": true,
     "repositories": {
         "private-packagist": {
