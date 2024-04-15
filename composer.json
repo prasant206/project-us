@@ -19,7 +19,7 @@
     "require": {
         "magento/composer-dependency-version-audit-plugin": "~0.1",
         "magento/composer-root-update-plugin": "~2.0",
-        "nest/meta-us": "~0.1"
+        "nest/meta-us": "~0.2"
     },
     "autoload": {
         "exclude-from-classmap": [
@@ -56,8 +56,7 @@
         "phpunit/phpunit": "^9.5",
         "sebastian/comparator": "<=4.0.6",
         "sebastian/phpcpd": "^6.0",
-        "symfony/finder": "^5.4",
-        "symfony/process": "<=v5.4.23"
+        "symfony/finder": "^5.4" 
     },
     "conflict": {
         "gene/bluefoot": "*"
